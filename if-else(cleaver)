@@ -1,0 +1,18 @@
+import turtle
+#def square
+def square():
+  p_turtle=turtle.Turtle()
+  p_turtle.forward(100)
+  p_turtle.right(90)
+  p_turtle.forward(100)
+  p_turtle.right(90)
+  p_turtle.forward(100)
+  p_turtle.right(90)
+  p_turtle.forward(100)
+a=100
+b=400
+if a<b:
+  square()
+else:
+  print('not allow')
+  
