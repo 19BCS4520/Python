@@ -1,0 +1,19 @@
+import calendar
+import datetime
+import time
+print(calendar.weekheader(3))
+print()
+print(calendar.firstweekday())
+print()
+print(calendar.month(2019,3))
+print()
+print(calendar.calendar(2022))
+#find the day 
+day_week=calendar.weekday(2022,7,8)
+print(day_week)
+#find leapyear
+is_leap=calendar.isleap(2022)
+print(is_leap)
+#how many leap-year
+how_many_leapdays=calendar.leapdays(2000,2022)
+print(how_many_leapdays)
